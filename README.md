@@ -31,3 +31,13 @@ MIT. See `LICENSE`.
 ## Layout
 
 Two manifests describe the same plugin. `.claude-plugin/plugin.json` and `.mcp.json` are the Claude Code plugin (install from the marketplace in `.claude-plugin/marketplace.json`). `plugin.json` and `mcp.json` at the root follow the Agent Plugins specification, which Cursor and cursor.directory read. Both point at the one server, `https://mcp.fitshapes.com/mcp`, and the skill in `skills/fit-shapes/`.
+
+## Gemini CLI and Antigravity CLI
+
+`gemini-extension.json` at the root makes this repo a Gemini CLI extension, listed in the gallery under the `gemini-cli-extension` topic. Install it with
+
+```
+gemini extensions install https://github.com/samsolomon/fit-shapes-plugin
+```
+
+then run `/mcp auth fit-shapes` to sign in. Antigravity CLI reads the same server address; the steps are at https://fitshapes.com/docs/connect/gemini-cli/.
