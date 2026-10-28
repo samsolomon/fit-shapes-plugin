@@ -41,14 +41,15 @@ does not estimate on its own from the request.
 
 1. Estimate calories, protein, carbs, fat, and fiber for what they described. Use the person's
    own portions and units. Prefer a label or a menu figure when they give one.
-2. Show the numbers in one line before you log, then let the person pick from two choices:
+2. Show the numbers and the meal in one line before you log, then let the person pick from two choices:
    **Log it** and **Make edits**. Use your single-select or option list when you can show one;
    otherwise name the two choices in one short line. Do not ask an open question such as "Does
    that look right?". After **Make edits**, ask what to change and show the new numbers the same
    way. Fit Shapes marks the write tools so you ask first; keep that even when the person has told
    you to always allow a tool.
 3. Ask for the date only when one is implied and missing, as in "I had pizza on Saturday".
-   Otherwise log on today. Pick the meal from the time of day unless they name one.
+   Otherwise log on today. Never ask which meal: leave `meal` out and Fit Shapes picks it from
+   the time of day, unless they name one. A wrong meal is a **Make edits** fix.
 4. Call `log_food` once per food, or once per plate with one honest name, with a `request_id`
    you make up (any unique string). If the call fails or times out, retry with the same
    `request_id`; Fit Shapes will not log it twice.
