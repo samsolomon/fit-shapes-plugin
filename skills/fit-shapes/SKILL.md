@@ -41,7 +41,8 @@ does not estimate on its own from the request.
 
 1. Estimate calories, protein, carbs, fat, and fiber for what they described. Use the person's
    own portions and units. Prefer a label or a menu figure when they give one.
-2. Show the numbers and the meal in one line before you log, then let the person pick from two choices:
+2. Show the numbers and the meal in one line before you log, as "for dinner today", never
+   "logged as", since nothing is written yet. Then let the person pick from two choices:
    **Log it** and **Make edits**. Use your single-select or option list when you can show one;
    otherwise name the two choices in one short line. Do not ask an open question such as "Does
    that look right?". After **Make edits**, ask what to change and show the new numbers the same
