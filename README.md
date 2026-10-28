@@ -27,3 +27,7 @@ https://fitshapes.com/docs/access/.
 ## License
 
 MIT. See `LICENSE`.
+
+## Layout
+
+Two manifests describe the same plugin. `.claude-plugin/plugin.json` and `.mcp.json` are the Claude Code plugin (install from the marketplace in `.claude-plugin/marketplace.json`). `plugin.json` and `mcp.json` at the root follow the Agent Plugins specification, which Cursor and cursor.directory read. Both point at the one server, `https://mcp.fitshapes.com/mcp`, and the skill in `skills/fit-shapes/`.
