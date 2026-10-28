@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fit-shapes",
+  "version": "0.3.0",
+  "description": "Fit Shapes, the calorie and macro tracker: read your food log, targets, weight trend, and expenditure, and log food and weigh-ins when you ask.",
+  "author": {
+    "name": "Sam Solomon",
+    "url": "https://fitshapes.com"
+  },
+  "homepage": "https://fitshapes.com/docs/",
+  "repository": "https://github.com/samsolomon/fit-shapes-plugin",
+  "license": "MIT",
+  "keywords": ["nutrition", "calories", "macros", "food log", "weight", "health"]
+}
