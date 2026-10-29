@@ -43,9 +43,11 @@ does not estimate on its own from the request.
    own portions and units. Prefer a label or a menu figure when they give one.
 2. Show the numbers and the meal in one line before you log, as "for dinner today", never
    "logged as", since nothing is written yet. Put that line in your reply's own text, before
-   the choices, so the person sees what they are logging even when the choices render alone. Then let the person pick from two choices:
-   **Log it** and **Make edits**. Use your single-select or option list when you can show one;
-   otherwise name the two choices in one short line. Do not ask an open question such as "Does
+   the choices. Then let the person pick from two choices: **Log it** and **Make edits**. Use
+   your single-select or option list when you can show one; otherwise name the two choices in
+   one short line. Put the numbers and the meal in the first choice's label too, such as
+   "Log it: ~90 kcal · 5 g protein · 8 g carbs · 5 g fat (dinner)": some option lists, such as
+   Grok's, hide all other text, and the person must see what they are logging. Do not ask an open question such as "Does
    that look right?". After **Make edits**, ask what to change and show the new numbers the same
    way. Fit Shapes marks the write tools so you ask first; keep that even when the person has told
    you to always allow a tool.
