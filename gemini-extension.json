@@ -1,6 +1,6 @@
 {
   "name": "fit-shapes",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Fit Shapes, the calorie and macro tracker: read your food log, targets, weight trend, and expenditure, and log food and weigh-ins when you ask.",
   "mcpServers": {
     "fit-shapes": {
