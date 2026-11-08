@@ -17,6 +17,43 @@ claude plugin install fit-shapes@fit-shapes
 
 Then run `/mcp` and sign in to Fit Shapes.
 
+## Install just the skill
+
+Plan meals around your remaining calories and protein, even without a Fit Shapes account.
+Install the skill in your current project with the skills CLI:
+
+```sh
+npx skills add samsolomon/fit-shapes-plugin --skill fit-shapes
+```
+
+Choose your agent when prompted. To install specifically for Claude Code:
+
+```sh
+npx skills add samsolomon/fit-shapes-plugin --skill fit-shapes -a claude-code
+```
+
+The skills CLI requires Node.js 22.20 or later. Start a new agent session after installing
+so it can load the skill.
+
+Try this without connecting an account:
+
+> I have 650 calories and 45 grams of protein left today. Suggest two dinners using chicken,
+> rice, and vegetables. Show portions and estimated nutrition for each.
+
+If you do not supply targets, the skill asks for your calorie and protein targets or what you
+have left today. Meal suggestions are estimates; they are not saved to a food log.
+
+### Connect your own food log
+
+Installing the skill this way adds instructions only. It does not install or authenticate the
+Fit Shapes MCP connection. To read your targets and history or save food and weigh-ins, follow
+the connection instructions for your assistant at https://fitshapes.com/docs/ and sign in with
+your own Fit Shapes account. Connected tools require a Fit Shapes membership; you choose
+read-only access or permission to log.
+
+If you already installed the full Claude Code plugin above, it includes this skill and the
+MCP connection configuration. You do not need to install the standalone skill as well.
+
 ## Everything else
 
 Steps for Claude, ChatGPT, Gemini, Grok, Perplexity, Mistral, Cursor, Codex, VS Code, OpenCode,
